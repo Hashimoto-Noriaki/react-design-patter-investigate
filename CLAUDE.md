@@ -6,7 +6,7 @@
 ## 採用するデザインパターン
 
 | パターン | ルールファイル | 概要 |
-|---------
+| --- | --- | --- |
 | Container/Presenter | [.claude/rules/container-presenter.md](.claude/rules/container-presenter.md) | ロジックとUIの分離 |
 | Provider | [.claude/rules/provider.md](.claude/rules/provider.md) | Context APIによるグローバル状態管理・props バケツリレーの解消 |
 | Compound Component | [.claude/rules/compound-component.md](.claude/rules/compound-component.md) | 複数の子コンポーネントが協調する柔軟なレイアウト構造 |
@@ -14,7 +14,7 @@
 ## 実装する機能（実装順）
 
 | # | 機能 | 説明 |
-|---|------|------|
+| --- | --- | --- |
 | 1 | 記事一覧 | トップページに記事カードを並べる |
 | 2 | 記事詳細 | Markdown レンダリング・タグ表示 |
 | 3 | 認証 | ログイン・ログアウト・ユーザー登録 |
